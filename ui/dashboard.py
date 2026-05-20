@@ -163,8 +163,8 @@ class AppWindow:
         # Set window size and position
         width = 480
         height = 720
-        x = (self.root.winfo_screenwidth() - width) // 2
-        y = (self.root.winfo_screenheight() - height) // 2
+        # Position at left-top corner initially to ensure visibility
+        x, y = 100, 100
         self.root.geometry(f"{width}x{height}+{x}+{y}")
 
         # Make window non-resizable

@@ -24,13 +24,13 @@ IO_MEDIUM_THRESHOLD = 1000  # KB/s - medium I/O activity
 
 # Colors
 COLORS = {
-    "background": "#1E1E1E",
-    "card_bg": "#2D2D2D",
+    "background": "#2D3748",  # Lighter background for visibility
+    "card_bg": "#4A5568",     # Lighter card background
     "text_primary": "#FFFFFF",
-    "text_secondary": "#B0B0B0",
+    "text_secondary": "#E2E8F0",
     "status_normal": "#00C853",
     "status_warm": "#FF9800",
     "status_hot": "#F44336",
     "accent": "#00BCD4",
-    "card_border": "#3D3D3D",
+    "card_border": "#718096",
 }
