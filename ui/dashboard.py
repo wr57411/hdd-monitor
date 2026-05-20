@@ -74,7 +74,9 @@ class Dashboard(tk.Frame):
 
     def _start_monitoring(self):
         """Start the monitoring loop"""
-        self._update()
+        # Defer first update to after mainloop starts, so the window
+        # renders initial placeholder UI before any subprocess calls
+        self.after(100, self._update)
 
     def _update(self):
         """Update all monitoring data"""
