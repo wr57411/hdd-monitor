@@ -1,0 +1,2 @@
+# HDD Temperature Monitor - Python dependencies
+# No external packages required - uses built-in Tkinter and system commands

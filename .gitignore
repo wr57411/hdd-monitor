@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.pid
+*.txt
+gui_output.txt
+main.py.backup
